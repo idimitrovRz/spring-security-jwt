@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/jwt_security
     username: postgres
-    password:
+    password: admin
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -12,5 +12,5 @@ spring:
       hibernate:
         format_sql: true
     database: postgresql
-    database-platform: org.hibernate.dialect.PostgresSQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
